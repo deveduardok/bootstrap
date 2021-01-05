@@ -1,0 +1,17 @@
+/* Como nem td tem no Bootstrap, temos que editar melhor o carousel no CSS     
+queremos deixar menos a img 
+preencha td parte do container, porem preservando a proporção, usando 'object-fit: cover'
+
+*/
+
+.imagem-carrossel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
